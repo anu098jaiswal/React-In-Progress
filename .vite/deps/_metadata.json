@@ -1,0 +1,31 @@
+{
+  "hash": "730c233e",
+  "configHash": "cc95f37b",
+  "lockfileHash": "7da05d3f",
+  "browserHash": "3863ce06",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e424707f",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "09ef94d4",
+      "needsInterop": true
+    },
+    "react-qrcode-logo": {
+      "src": "../../node_modules/react-qrcode-logo/dist/index.js",
+      "file": "react-qrcode-logo.js",
+      "fileHash": "9461701a",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-Y455YYDO": {
+      "file": "chunk-Y455YYDO.js"
+    }
+  }
+}

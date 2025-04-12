@@ -18,6 +18,7 @@ export default function PasswordGenerator() {
     if (character) str += "!@#$%^&*()";
 
 
+
     for (let i = 0; i <length; i++) {
       let char = Math.floor(Math.random() * str.length);//index not char
       pass += str.charAt(char);

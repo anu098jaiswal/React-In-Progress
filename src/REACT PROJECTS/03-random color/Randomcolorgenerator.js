@@ -16,6 +16,7 @@ export function RandomColor() {
     }
     console.log(hexColor);
     setColor(hexColor);
+  
   }
   function handleRandomRgbColor() {
     const r = randomGenerator(256);

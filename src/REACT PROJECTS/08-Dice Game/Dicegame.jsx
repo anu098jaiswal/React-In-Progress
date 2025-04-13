@@ -1,18 +1,21 @@
-import React from 'react'
-import styled from 'styled-components';
+import React, { useState } from 'react'
+//import styled from 'styled-components';
+import Startgame from './Startgame';
+import Gameplay from './Gameplay';
 
-const Button = styled.button`;
-background-color :black;
-color : white;
-padding :10px;
-`;
+
 
 function Dicegame() {
+    const[isGameStarted,setIsGameStarted] = useState(false);
+
+    const toggleGamePlay= () =>{
+        setIsGameStarted(prev=> ! prev)
+    };
   return (
     <>
-      <Button>This is a Style</Button>
+      {isGameStarted ? <Gameplay/>: <Startgame toggle ={toggleGamePlay}/>}
     </>
-  )
+  );
 }
 
 export default Dicegame;

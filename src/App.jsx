@@ -4,14 +4,16 @@
 // import { RandomColor } from "./REACT PROJECTS/random color/Randomcolorgenerator";
 // import StarRating from "./REACT PROJECTS/Star Rating/StarRating";
 // import { Effect } from "./React-Topics/useEffect";
-import { Dicegame } from "./REACT PROJECTS/08-Dice Game";
+//import { Dicegame } from "./REACT PROJECTS/08-Dice Game";
 
 //import PasswordGenerator from "./REACT PROJECTS/passwordGenerator/Passoword";
 // import { Input } from "./components";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import router from "./React-Topics/Router/Route";
 // import Forms from "./React-Topics/React Forms/Forms";
-import { QRGenerator } from "./REACT PROJECTS/05-QR-generator/QRGenerator";
+//import { QRGenerator } from "./REACT PROJECTS/05-QR-generator/QRGenerator";
+import {Pagination} from "./REACT PROJECTS/09-Pagination";
+
 
 
 
@@ -50,6 +52,7 @@ export function App() {
  // return <RouterProvider router={router} />;
  //return <Forms/>
 //return <QRGenerator/>;
- return <Dicegame/>;
+ //return <Dicegame/>;
+ return <Pagination/>
 
 }

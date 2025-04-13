@@ -1,0 +1,20 @@
+.Pagination{
+    font-family:sans-serif;
+    text-align: center;
+}
+ .product-card {
+  display: flex;
+  width: 210px;;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding:5px;
+  margib:5px;
+}
+.product-img{
+    width: 200px;
+    height:200px;
+}
+ .product-container{
+    display: flex;
+    flex-wrap: wrap;
+ }

@@ -1,0 +1,28 @@
+.Start{
+    text-align: center;
+    font: sans-serif;
+}
+
+.search{
+    width:500px;
+    padding:10px;
+}
+
+.results-container{
+    width:500px;
+    margin:auto;
+    border:1px solid black;
+    padding:5px;
+    text-align: left;
+     max-height:500px;
+    overflow-y:scroll;
+
+}
+.results{
+    display:block;
+padding :3px;
+
+}
+.results:hover{
+    background-color: grey;
+}

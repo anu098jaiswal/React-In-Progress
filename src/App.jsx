@@ -12,7 +12,8 @@
 // import router from "./React-Topics/Router/Route";
 // import Forms from "./React-Topics/React Forms/Forms";
 //import { QRGenerator } from "./REACT PROJECTS/05-QR-generator/QRGenerator";
-import {Pagination} from "./REACT PROJECTS/09-Pagination";
+//import {Pagination} from "./REACT PROJECTS/09-Pagination";
+import AutoComplete from "./REACT PROJECTS/10-AutoComplete-Search-Bar/AutoComplete";
 
 
 
@@ -53,6 +54,7 @@ export function App() {
  //return <Forms/>
 //return <QRGenerator/>;
  //return <Dicegame/>;
- return <Pagination/>
+ //return <Pagination/>
+ return <AutoComplete/>
 
 }

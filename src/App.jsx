@@ -13,7 +13,8 @@
 // import Forms from "./React-Topics/React Forms/Forms";
 //import { QRGenerator } from "./REACT PROJECTS/05-QR-generator/QRGenerator";
 //import {Pagination} from "./REACT PROJECTS/09-Pagination";
-import AutoComplete from "./REACT PROJECTS/10-AutoComplete-Search-Bar/AutoComplete";
+import StarRating from "./REACT PROJECTS/02-Star Rating/StarRating";
+//import AutoComplete from "./REACT PROJECTS/10-AutoComplete-Search-Bar/AutoComplete";
 
 
 
@@ -55,6 +56,7 @@ export function App() {
 //return <QRGenerator/>;
  //return <Dicegame/>;
  //return <Pagination/>
- return <AutoComplete/>
+ //return <AutoComplete/>
+ return <StarRating/>
 
 }

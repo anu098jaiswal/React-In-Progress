@@ -13,7 +13,8 @@
 // import Forms from "./React-Topics/React Forms/Forms";
 //import { QRGenerator } from "./REACT PROJECTS/05-QR-generator/QRGenerator";
 //import {Pagination} from "./REACT PROJECTS/09-Pagination";
-import StarRating from "./REACT PROJECTS/02-Star Rating/StarRating";
+//import {StarRating} from "./REACT PROJECTS/02-Star Rating";
+ import { TabForm } from "./REACT PROJECTS/11.Tab-Form";
 //import AutoComplete from "./REACT PROJECTS/10-AutoComplete-Search-Bar/AutoComplete";
 
 
@@ -57,6 +58,7 @@ export function App() {
  //return <Dicegame/>;
  //return <Pagination/>
  //return <AutoComplete/>
- return <StarRating/>
+ //return <StarRating/>
+ return <TabForm/>
 
 }

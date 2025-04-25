@@ -6,6 +6,8 @@
 // import { Effect } from "./React-Topics/useEffect";
 //import { Dicegame } from "./REACT PROJECTS/08-Dice Game";
 
+import Start from "./Mega_Project/App";
+
 //import PasswordGenerator from "./REACT PROJECTS/passwordGenerator/Passoword";
 // import { Input } from "./components";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -14,7 +16,7 @@
 //import { QRGenerator } from "./REACT PROJECTS/05-QR-generator/QRGenerator";
 //import {Pagination} from "./REACT PROJECTS/09-Pagination";
 //import {StarRating} from "./REACT PROJECTS/02-Star Rating";
- import { TabForm } from "./REACT PROJECTS/11.Tab-Form";
+ //import { TabForm } from "./REACT PROJECTS/11.Tab-Form";
 //import AutoComplete from "./REACT PROJECTS/10-AutoComplete-Search-Bar/AutoComplete";
 
 
@@ -59,6 +61,8 @@ export function App() {
  //return <Pagination/>
  //return <AutoComplete/>
  //return <StarRating/>
- return <TabForm/>
+ //return <TabForm/>
+ return <Start/>
+
 
 }

@@ -6,7 +6,8 @@
 // import { Effect } from "./React-Topics/useEffect";
 //import { Dicegame } from "./REACT PROJECTS/08-Dice Game";
 
-import Start from "./Mega_Project/App";
+//import Start from "./Mega_Project/App";
+import OtpInput from "./REACT PROJECTS/12.Otp-input/OtpInput";
 
 //import PasswordGenerator from "./REACT PROJECTS/passwordGenerator/Passoword";
 // import { Input } from "./components";
@@ -62,7 +63,8 @@ export function App() {
  //return <AutoComplete/>
  //return <StarRating/>
  //return <TabForm/>
- return <Start/>
+ //return <Start/>
+ return <OtpInput/>
 
 
 }

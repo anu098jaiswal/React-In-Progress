@@ -1,0 +1,13 @@
+.chips {
+  display: block;
+  padding: 5px;
+  margin: 10px;
+  background-color: grey;
+  color: white;
+  font-size: 14px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

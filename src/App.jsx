@@ -1,14 +1,25 @@
 
 // import Accordian from "./REACT PROJECTS/Accordian";
 // import PreserveState from "./React-Topics/Managing State/preserve&Reset/PreserveState";
-// import { RandomColor } from "./REACT PROJECTS/random color/Randomcolorgenerator";
+ //import Randomcolorgenerator from "./REACT MINI PROJECTS/03-random color/Randomcolorgenerator";
+import CityQuiz from "./React-Topics/Managing State/ReactingToInputWState/CityQuiz";
+
 // import StarRating from "./REACT PROJECTS/Star Rating/StarRating";
 // import { Effect } from "./React-Topics/useEffect";
 //import { Dicegame } from "./REACT PROJECTS/08-Dice Game";
 
 //import Start from "./Mega_Project/App";
-import Progressbar from "./REACT PROJECTS/09-Progress-Bar/progressbar";
-import TodoList from "./REACT PROJECTS/15.To-Do/ToDoList";
+//import { Home } from "./CHATGPT_ENHANCED";
+//import Accordian from "./React-Topics/Managing State/Accordian";
+//import FeedbackForm from "./React-Topics/Managing State/StructureState/FeedbackForm";
+//import Form2 from "./React-Topics/Managing State/StructureState/Form2";
+//import Menu from "./React-Topics/Managing State/StructureState/Menu";
+//import MovingDot from "./React-Topics/Managing State/StructureState/MovingDot";
+//import NestedPlaces from "./React-Topics/Managing State/StructureState/NestedPlaces";
+//import Parent from "./React-Topics/Managing State/StructureState/Parent";
+//import Progressbar from "./REACT PROJECTS/09-Progress-Bar/progressbar";
+//import TodoList from "./REACT PROJECTS/15.To-Do/ToDoList";
+//import { LandingPage } from "./REACT PROJECTS/ZOOM";
 //import OtpInput from "./REACT PROJECTS/12.Otp-input/OtpInput";
 //import Chips from "./REACT PROJECTS/13-Chips-Input/chips";
 //import Counter from "./React-Topics/Use-state/Counter";
@@ -55,7 +66,7 @@ export function App() {
   // return <UseEffectLogic />;
   //return   <PreserveState/>;
   //return <Accordian/>
-  //return <RandomColor/>
+  //return <Randomcolorgenerator/>
   // return <Effect/>
   //return <PasswordGenerator/>
   //return <Messenger/>
@@ -74,7 +85,15 @@ export function App() {
  // return <Counter/>
 //return <Chips/>
 //return <Progressbar/>
-return <TodoList/>
+//return <TodoList/>`
+//return<LandingPage/>
+//return <Home/>
+
+return (
+  <CityQuiz/>
+);
+
+ 
 
 
 }

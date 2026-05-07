@@ -1,0 +1,14 @@
+.Home {
+  display: flex;
+  height: 100vh;
+}
+
+.Left {
+  width: 25%;
+  background-color: white;
+}
+
+.Right {
+  width: 75%;
+  background-color:white;
+}

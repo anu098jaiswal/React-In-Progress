@@ -26,3 +26,6 @@ dist-ssr
 .DS_Store
 node_modules/
 
+src/Mega_Project/.env
+.env
+public/vite.svg

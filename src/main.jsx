@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import {App }from "./App";
+import {App} from "./App";
+//import { AppRoute } from "./REACT PROJECTS/ZOOM";
 //import reportWebVitals from "./reportWebVitals";
 
 

@@ -2,15 +2,17 @@
 // import Accordian from "./REACT PROJECTS/Accordian";
 // import PreserveState from "./React-Topics/Managing State/preserve&Reset/PreserveState";
  //import Randomcolorgenerator from "./REACT MINI PROJECTS/03-random color/Randomcolorgenerator";
-import CityQuiz from "./React-Topics/Managing State/ReactingToInputWState/CityQuiz";
+//import CityQuiz from "./React-Topics/Managing State/ReactingToInputWState/CityQuiz";
 
 // import StarRating from "./REACT PROJECTS/Star Rating/StarRating";
 // import { Effect } from "./React-Topics/useEffect";
 //import { Dicegame } from "./REACT PROJECTS/08-Dice Game";
+//import Challenge2 from  "./React-Topics/Managing State/ReactingToInputWState/Challenge2";
 
 //import Start from "./Mega_Project/App";
 //import { Home } from "./CHATGPT_ENHANCED";
-//import Accordian from "./React-Topics/Managing State/Accordian";
+//import Accordian from "./React-Topics/Managing State/SharingState/Accordian";
+import Parent from "./React-Topics/useContext/Parent";
 //import FeedbackForm from "./React-Topics/Managing State/StructureState/FeedbackForm";
 //import Form2 from "./React-Topics/Managing State/StructureState/Form2";
 //import Menu from "./React-Topics/Managing State/StructureState/Menu";
@@ -35,11 +37,6 @@ import CityQuiz from "./React-Topics/Managing State/ReactingToInputWState/CityQu
 //import {StarRating} from "./REACT PROJECTS/02-Star Rating";
 //import { TabForm } from "./REACT PROJECTS/11.Tab-Form";
 //import AutoComplete from "./REACT PROJECTS/10-AutoComplete-Search-Bar/AutoComplete";
-
-
-
-
-
 
 
 export function App() {
@@ -89,9 +86,8 @@ export function App() {
 //return<LandingPage/>
 //return <Home/>
 
-return (
-  <CityQuiz/>
-);
+//return <Challenge2/>
+return <Parent/>
 
  
 

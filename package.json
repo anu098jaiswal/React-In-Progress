@@ -20,8 +20,9 @@
     "react-hook-form": "^7.56.1",
     "react-parser": "^1.0.0",
     "react-qrcode-logo": "^3.0.0",
-    "react-redux": "^9.2.0",
+    "react-redux": "^9.3.0",
     "react-router-dom": "^7.6.0",
+    "redux": "^5.0.1",
     "styled-components": "^6.1.17"
   },
   "devDependencies": {

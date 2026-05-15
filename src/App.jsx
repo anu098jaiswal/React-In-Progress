@@ -12,6 +12,7 @@
 //import Start from "./Mega_Project/App";
 //import { Home } from "./CHATGPT_ENHANCED";
 //import Accordian from "./React-Topics/Managing State/SharingState/Accordian";
+import Redux from "./React-Topics/Redux-Toolkit/Redux";
 import Parent from "./React-Topics/useContext/Parent";
 //import FeedbackForm from "./React-Topics/Managing State/StructureState/FeedbackForm";
 //import Form2 from "./React-Topics/Managing State/StructureState/Form2";
@@ -87,7 +88,8 @@ export function App() {
 //return <Home/>
 
 //return <Challenge2/>
-return <Parent/>
+//return <Parent/>
+return <Redux/>
 
  
 

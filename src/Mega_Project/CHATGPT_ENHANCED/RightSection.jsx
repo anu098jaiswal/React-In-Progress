@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./styles/rightSection.css";
 
-const openAiAPI = "sk-31214e50e63a43eea5d77476d131ccd5";
+
 
 const RightSection = () => {
   const [message, setMessage] = useState("");
